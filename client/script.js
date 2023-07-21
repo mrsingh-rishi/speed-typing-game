@@ -40,7 +40,7 @@ changeIdIndex = 0 ;
 wordCount = 0
 wordComplete = true ;
 var characterArray 
-var setTime = 60
+var setTime = 120
 initialTime = setTime
 var wpm = 0
 var accuracy = 0
