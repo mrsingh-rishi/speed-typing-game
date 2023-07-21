@@ -16,11 +16,12 @@
   }
   
   .container {
-    background-color: #F0DB4F;
+    background-color: #171717;
     padding: 1rem;
     border-radius: .5rem;
     width: 700px;
     max-width: 90%;
+    color: white;
   }
   
   .timer {
@@ -48,6 +49,7 @@
     padding: .5rem 1rem;
     font-size: 1rem;
     border-radius: .5rem;
+    color: white;
   }
   
   .quote-input:focus {
