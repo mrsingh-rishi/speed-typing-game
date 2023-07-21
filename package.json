@@ -1,0 +1,24 @@
+{
+  "name": "speed-typing-game",
+  "version": "1.0.0",
+  "description": "It is an multiplayer speed typing game where player comes and challenge each other",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsingh-rishi/speed-typing-game.git"
+  },
+  "author": "Rishi Singh, Ayush Gupta, Manish Gola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrsingh-rishi/speed-typing-game/issues"
+  },
+  "homepage": "https://github.com/mrsingh-rishi/speed-typing-game#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.1"
+  }
+}
