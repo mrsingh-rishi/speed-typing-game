@@ -9,12 +9,12 @@ body{
 }
 
 h1{
-    color: gold;
+    color: bisque;
     font-size: 2.5rem;
 }
 
 .panel {
-    border: 2px solid red;
+    border: 2px solid bisque;
     height: fit-content;
     width: 72%;
     margin: auto;
@@ -26,7 +26,7 @@ h1{
     background-color: #323437;
     
    
-     color :  #646669;
+     color :  bisque;
     font-size: 1.5rem;
     text-align: left;
     border : none ;
