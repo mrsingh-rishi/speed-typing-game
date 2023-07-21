@@ -11,7 +11,7 @@ http.listen(PORT, () => {
 app.use(express.static(__dirname + '/client'))
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html')
+    res.sendFile(__dirname + '/client/index.html')
 })
 
 // const secureKey = 9211 ;

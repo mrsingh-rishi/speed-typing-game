@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Buddy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+     <center>
+        <h1>
+            Speed-O-Typing
+        </h1>
+     </center>
+        <div class="panel" >
+            
+            <div  class="panel-item wordCount">
+                word count : <span id="wordCount">0</span>
+            </div>
+            <div  class="panel-item timer">
+            time left : <span id="timer">0</span> s
+            </div>
+
+            <div  class="panel-item speed">
+                Speed : <span id="speed">0</span> wpm
+            </div>
+
+            <div  class="panel-item accuracy">
+                Accuracy : <span id="accuracy">0</span> %
+            </div>
+
+            <div  class="panel-item username">
+                Player  : <span id="username">-</span>
+            </div>
+
+
+            <div  class="panel-item rank">
+                Your Rank : <span id="rank">0</span>
+            </div>
+
+            <div  class="panel-item num">
+                Playing : <span id="num">0</span>
+            </div>
+
+
+        </div>
+
+        <audio src="sound.mp3" id="music" autoplay="true"></audio>
+       <center>
+        <div id="inputBox" >ChatGPT is an artificial intelligence chatbot developed by OpenAI and launched in November 2022. It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models and has been fine-tuned using both supervised and reinforcement learning techniques. <span>${characterArray[i]}</span><span>${characterArray[i]}</span> 
+        </div>
+        <div class="progressBars">
+            <div id="p1" class="players">No one</div>
+            <div class="bars" id="A1">1</div>
+            <div id="p2" class="players">No one</div>
+            <div class="bars" id="A2">2</div>
+            <div id="p3" class="players">No one</div>
+            <div class="bars" id="A3">3</div>
+            <div id="p4" class="players">No one</div>
+            <div class="bars" id="A4">4</div>
+            <div id="p5" class="players">No one</div>
+            <div class="bars" id="A5">5</div>
+        </div>
+
+       </center>
+
+     
+       <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
